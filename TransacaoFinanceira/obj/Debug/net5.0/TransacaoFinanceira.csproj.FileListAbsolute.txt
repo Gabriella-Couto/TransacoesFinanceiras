@@ -1,0 +1,16 @@
+C:\Users\gabii\OneDrive\Documentos\Estudos programacao\Case Itau\TransacaoFinanceira\bin\Debug\net5.0\TransacaoFinanceira.exe
+C:\Users\gabii\OneDrive\Documentos\Estudos programacao\Case Itau\TransacaoFinanceira\bin\Debug\net5.0\TransacaoFinanceira.deps.json
+C:\Users\gabii\OneDrive\Documentos\Estudos programacao\Case Itau\TransacaoFinanceira\bin\Debug\net5.0\TransacaoFinanceira.runtimeconfig.json
+C:\Users\gabii\OneDrive\Documentos\Estudos programacao\Case Itau\TransacaoFinanceira\bin\Debug\net5.0\TransacaoFinanceira.runtimeconfig.dev.json
+C:\Users\gabii\OneDrive\Documentos\Estudos programacao\Case Itau\TransacaoFinanceira\bin\Debug\net5.0\TransacaoFinanceira.dll
+C:\Users\gabii\OneDrive\Documentos\Estudos programacao\Case Itau\TransacaoFinanceira\bin\Debug\net5.0\TransacaoFinanceira.pdb
+C:\Users\gabii\OneDrive\Documentos\Estudos programacao\Case Itau\TransacaoFinanceira\obj\Debug\net5.0\TransacaoFinanceira.csproj.AssemblyReference.cache
+C:\Users\gabii\OneDrive\Documentos\Estudos programacao\Case Itau\TransacaoFinanceira\obj\Debug\net5.0\TransacaoFinanceira.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gabii\OneDrive\Documentos\Estudos programacao\Case Itau\TransacaoFinanceira\obj\Debug\net5.0\TransacaoFinanceira.AssemblyInfoInputs.cache
+C:\Users\gabii\OneDrive\Documentos\Estudos programacao\Case Itau\TransacaoFinanceira\obj\Debug\net5.0\TransacaoFinanceira.AssemblyInfo.cs
+C:\Users\gabii\OneDrive\Documentos\Estudos programacao\Case Itau\TransacaoFinanceira\obj\Debug\net5.0\TransacaoFinanceira.csproj.CoreCompileInputs.cache
+C:\Users\gabii\OneDrive\Documentos\Estudos programacao\Case Itau\TransacaoFinanceira\obj\Debug\net5.0\TransacaoFinanceira.dll
+C:\Users\gabii\OneDrive\Documentos\Estudos programacao\Case Itau\TransacaoFinanceira\obj\Debug\net5.0\refint\TransacaoFinanceira.dll
+C:\Users\gabii\OneDrive\Documentos\Estudos programacao\Case Itau\TransacaoFinanceira\obj\Debug\net5.0\TransacaoFinanceira.pdb
+C:\Users\gabii\OneDrive\Documentos\Estudos programacao\Case Itau\TransacaoFinanceira\obj\Debug\net5.0\TransacaoFinanceira.genruntimeconfig.cache
+C:\Users\gabii\OneDrive\Documentos\Estudos programacao\Case Itau\TransacaoFinanceira\obj\Debug\net5.0\ref\TransacaoFinanceira.dll
