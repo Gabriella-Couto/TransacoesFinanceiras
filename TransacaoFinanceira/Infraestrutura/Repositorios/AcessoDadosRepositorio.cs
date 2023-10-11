@@ -1,21 +1,21 @@
 ﻿using System;
 using System.Collections.Generic;
-using TransacaoFinanceira.DTO;
+using TransacaoFinanceira.Dominio.Entidades;
 
-namespace TransacaoFinanceira.DAO
+namespace TransacaoFinanceira.Infraestrutura.Repositorios
 {
-    public class AcessoDados
+    public class AcessoDadosRepositorio
     {
         private Dictionary<int, decimal> SALDOS { get; set; }
         private List<ContasSaldo> TABELA_SALDOS;
 
-        public AcessoDados()
+        public AcessoDadosRepositorio()
         {
             TABELA_SALDOS = new List<ContasSaldo>
             {
                 new ContasSaldo(938485762, 180),
                 new ContasSaldo(347586970, 1200),
-                new ContasSaldo(unchecked((int)2147483649), 0),
+                new ContasSaldo(2147483649, 0),
                 new ContasSaldo(675869708, 4900),
                 new ContasSaldo(238596054, 478),
                 new ContasSaldo(573659065, 787),
@@ -28,7 +28,7 @@ namespace TransacaoFinanceira.DAO
             SALDOS.Add(938485762, 180);
         }
 
-        public T GetSaldo<T>(int id)
+        public T GetSaldo<T>(long id)
         {
             return (T)Convert.ChangeType(TABELA_SALDOS.Find(x => x.Conta == id), typeof(T));
         }
@@ -37,7 +37,7 @@ namespace TransacaoFinanceira.DAO
         {
             try
             {
-                ContasSaldo item = (dado as ContasSaldo);
+                ContasSaldo item = dado as ContasSaldo;
                 TABELA_SALDOS.RemoveAll(x => x.Conta == item.Conta);
                 TABELA_SALDOS.Add(dado as ContasSaldo);
 

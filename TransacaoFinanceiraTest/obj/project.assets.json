@@ -6275,11 +6275,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\gabii\\OneDrive\\Documentos\\Estudos programacao\\Case Itau\\TransacaoFinanceiraTest\\TransacaoFinanceiraTest.csproj",
+      "projectUniqueName": "C:\\Users\\gabii\\OneDrive\\Documentos\\Estudos programacao\\TransacoesFinanceiras\\TransacaoFinanceiraTest\\TransacaoFinanceiraTest.csproj",
       "projectName": "TransacaoFinanceiraTest",
-      "projectPath": "C:\\Users\\gabii\\OneDrive\\Documentos\\Estudos programacao\\Case Itau\\TransacaoFinanceiraTest\\TransacaoFinanceiraTest.csproj",
+      "projectPath": "C:\\Users\\gabii\\OneDrive\\Documentos\\Estudos programacao\\TransacoesFinanceiras\\TransacaoFinanceiraTest\\TransacaoFinanceiraTest.csproj",
       "packagesPath": "C:\\Users\\gabii\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\gabii\\OneDrive\\Documentos\\Estudos programacao\\Case Itau\\TransacaoFinanceiraTest\\obj\\",
+      "outputPath": "C:\\Users\\gabii\\OneDrive\\Documentos\\Estudos programacao\\TransacoesFinanceiras\\TransacaoFinanceiraTest\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\gabii\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -6297,8 +6297,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\gabii\\OneDrive\\Documentos\\Estudos programacao\\Case Itau\\TransacaoFinanceira\\TransacaoFinanceira.csproj": {
-              "projectPath": "C:\\Users\\gabii\\OneDrive\\Documentos\\Estudos programacao\\Case Itau\\TransacaoFinanceira\\TransacaoFinanceira.csproj"
+            "C:\\Users\\gabii\\OneDrive\\Documentos\\Estudos programacao\\TransacoesFinanceiras\\TransacaoFinanceira\\TransacaoFinanceira.csproj": {
+              "projectPath": "C:\\Users\\gabii\\OneDrive\\Documentos\\Estudos programacao\\TransacoesFinanceiras\\TransacaoFinanceira\\TransacaoFinanceira.csproj"
             }
           }
         }

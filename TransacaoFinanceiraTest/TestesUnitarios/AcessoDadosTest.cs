@@ -1,6 +1,6 @@
 ﻿using FluentAssertions;
-using TransacaoFinanceira.DAO;
-using TransacaoFinanceira.DTO;
+using TransacaoFinanceira.Dominio.Entidades;
+using TransacaoFinanceira.Infraestrutura.Repositorios;
 using Xunit;
 
 namespace TransacaoFinanceiraTest.TestesUnitarios
@@ -10,7 +10,7 @@ namespace TransacaoFinanceiraTest.TestesUnitarios
         [Fact]
         public void GetSaldoTest_ContaExistente()
         {
-            var acessoDados = new AcessoDados();
+            var acessoDados = new AcessoDadosRepositorio();
             var saldo = acessoDados.GetSaldo<ContasSaldo>(210385733);
 
             saldo.Should().NotBeNull();
@@ -20,7 +20,7 @@ namespace TransacaoFinanceiraTest.TestesUnitarios
         [Fact]
         public void GetSaldoTest_ContaInexistente()
         {
-            var acessoDados = new AcessoDados();
+            var acessoDados = new AcessoDadosRepositorio();
             var saldo = acessoDados.GetSaldo<ContasSaldo>(11162000);
 
             saldo.Should().BeNull();
@@ -29,7 +29,7 @@ namespace TransacaoFinanceiraTest.TestesUnitarios
         [Fact]
         public void Atualizar_Sucesso()
         {
-            var acessoDados = new AcessoDados();
+            var acessoDados = new AcessoDadosRepositorio();
             var conta = new ContasSaldo(675869708, 6450);
             var resultadoAtualizacao = acessoDados.Atualizar(conta);
 

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "6bXWLdwAws7Jd4/l/0LpGVNnY//udscX/NbP5hctyTcYSJVKXXaaIWpKnt6MG0hHrSBYPc+MJJ4QaoOK3YyppA==",
+  "dgSpecHash": "Ppp/qhrwwcv1q5ArihE9Od9yREUh+nUP21oYLLff4+EZvFDqS2zR2zx9edvLThNtdEaVA0EcPfZzvHuUZGkn6A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\gabii\\OneDrive\\Documentos\\Estudos programacao\\Case Itau\\TransacaoFinanceiraTest\\TransacaoFinanceiraTest.csproj",
+  "projectFilePath": "C:\\Users\\gabii\\OneDrive\\Documentos\\Estudos programacao\\TransacoesFinanceiras\\TransacaoFinanceiraTest\\TransacaoFinanceiraTest.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\gabii\\.nuget\\packages\\coverlet.collector\\3.1.2\\coverlet.collector.3.1.2.nupkg.sha512",
     "C:\\Users\\gabii\\.nuget\\packages\\fluentassertions\\6.12.0\\fluentassertions.6.12.0.nupkg.sha512",

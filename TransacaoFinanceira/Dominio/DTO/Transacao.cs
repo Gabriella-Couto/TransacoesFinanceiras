@@ -1,13 +1,13 @@
-﻿namespace TransacaoFinanceira.DTO
+﻿namespace TransacaoFinanceira.Dominio.DTO
 {
     public class Transacao
     {
         public int TransacaoId { get; set; }
-        public int ContaOrigem { get; set; } 
-        public int ContaDestino { get; set; }
+        public long ContaOrigem { get; set; }
+        public long ContaDestino { get; set; }
         public decimal Valor { get; set; }
 
-        public Transacao(int transacaoId, int contaOrigem, int contaDestino, decimal valor)
+        public Transacao(int transacaoId, long contaOrigem, long contaDestino, decimal valor)
         {
             TransacaoId = transacaoId;
             ContaOrigem = contaOrigem;
